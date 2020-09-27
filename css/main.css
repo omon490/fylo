@@ -27,7 +27,6 @@ body{
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
-  /* background-color: #654656; */
 }
 
 
@@ -115,6 +114,128 @@ body{
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
   border-radius: 28px;
 }
+
+/* FEATURES SECTION */
+
+.features-wrapper{
+  max-width: 880px;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 158px;
+  margin-bottom: 137px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-group{
+  width: 349px;
+  margin-bottom: 78px;
+}
+
+.features-group::before{
+  content: "";
+  width: 104px;
+  height: 104px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pc::before{
+  background-image: url(../img/features-illustration/pc.png);
+}
+
+.security::before{
+  background-image: url(../img/features-illustration/icon-security.png);
+}
+
+.collaboration::before{
+  background-image: url(../img/features-illustration/icon-collaboration.png);
+}
+
+.file::before{
+  background-image: url(../img/features-illustration/icon-file.png);
+}
+
+.features-title{
+  font-family: "Raleway", "Open Sans", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.features-text{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+/* SECTION ATTRACTIVE */
+
+
+.attractive-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.attractive-right-wrapper{
+  max-width: 563px;
+}
+
+.attractive-title{
+  width: 506px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.attractive-text{
+  width: 563px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+
+.attractive-link{
+  text-decoration: none;
+  border: none;
+  border-bottom: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #62E0D9;
+}
+
+.links-icon{
+  width: 12px;
+  height: 12px;
+}
+
+
+.links-divider{
+  width: 166px;
+  height: 1px;
+  padding: 0;
+  margin-left: 0;
+  background: #62E0D9;
+}
+
+
 
 
 
