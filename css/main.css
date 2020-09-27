@@ -7,7 +7,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  background: #181F2B;
+  background-color: #181F2B;
 }
 
 .visually-hidden{
@@ -27,6 +27,10 @@ body{
   margin-right: auto;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.top-header-wrapper{
+  background-color: #181F2B;
 }
 
 
